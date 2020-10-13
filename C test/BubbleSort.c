@@ -3,19 +3,20 @@
 void printArr(int arr[], int size){
     
     for(int i =0; i<size; i++){
-        printf("%d, ", arr[i]);
+        printf("%d ", arr[i]);
     }
+
     printf("\n");
 }
 
 int main(void){
 
     printf("Hello World \n");
-    int num[] = {64, 34, 25, 12, 22, 11, 90}; 
+    int num[] = {8, 3, 1, 5, 6};
 
     int n = sizeof(num)/sizeof(num[0]);
 
-    printArr(num, n);
+printArr(num, n);
     for(int i = 0; i < n; i++){
         int val;
         for(int j = 0; j < n-1; j++){
@@ -26,7 +27,6 @@ int main(void){
             }
         }
     }
-
 
     printArr(num, n);
 
