@@ -5,9 +5,10 @@ P ZX
 RN
 RV NO_IO
 
-U hello%b		hello.ada		751ffaa9 NE OO SU
+U hello%b		hello.ada		0917c3c6 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
 
 D ada.ads		20200819050642 76789da1 ada%s
 D a-except.ads		20200819050642 a7106115 ada.exceptions%s
@@ -16,13 +17,14 @@ D a-stream.ads		20200819050642 119b8fb3 ada.streams%s
 D a-tags.ads		20200819050643 edddc8f0 ada.tags%s
 D a-textio.ads		20200819050643 aef4d56d ada.text_io%s
 D a-unccon.ads		20200819050643 0e9b276f ada.unchecked_conversion%s
-D hello.ada		20201013065657 dbeb2fc4 hello%b
+D hello.ada		20201013070922 a7e316ab hello%b
 D interfac.ads		20200819050644 5ab55268 interfaces%s
 D i-cstrea.ads		20200819050644 e53d8b8e interfaces.c_streams%s
 D system.ads		20200819050647 085b6ffb system%s
 D s-crtl.ads		20200819050645 0ebbdb71 system.crtl%s
 D s-exctab.ads		20200819050645 54135002 system.exception_table%s
 D s-ficobl.ads		20200819050645 078245e4 system.file_control_block%s
+D s-imgint.ads		20200819050645 02dbe0c2 system.img_int%s
 D s-parame.ads		20200819050646 4752c4cb system.parameters%s
 D s-secsta.ads		20200819050646 9b3ab94b system.secondary_stack%s
 D s-soflin.ads		20200819050646 a7318a92 system.soft_links%s
@@ -35,10 +37,12 @@ D s-wchcon.ads		20200819050646 1b7d22d2 system.wch_con%s
 G a e
 G c Z b b [hello standard 3 11 none]
 X 1 ada.ads
-16K9*Ada 20e8 8|1r6 5r4
+16K9*Ada 20e8 8|1r6 1r23 11r4
 X 6 a-textio.ads
-57K13*Text_IO 727e16 8|1w10 5r8
-508U14*Put_Line 8|5s16
+57K13*Text_IO 727e16 8|1w10 1r27 11r8
+465U14*Put 8|8s7
+508U14*Put_Line 8|10s4 11s16
 X 8 hello.ada
-3U11*Hello 3b11 6l5 6t10
+3U11*Hello 3b11 12l5 12t10
+4i1 X{integer} 7r7 8r25
 
