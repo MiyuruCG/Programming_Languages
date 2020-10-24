@@ -1,0 +1,7 @@
+
+BEGIN
+
+print(2 MOD 5)
+
+    
+END
